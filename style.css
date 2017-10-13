@@ -39,33 +39,29 @@ html {
   }
 
 
+  @font-face {
+      font-family: 'Indie Flower script=latin rev=1';
+      font-style: normal;
+      font-weight: 200;
+      src:   url(https://fonts.gstatic.com/l/font?kit=10JVD_humAd5zP2yrFqw6sh1wfMmCjn12V_BQTGmdm-lWBXZHJxtwUAuAQMHUQarESqeeMWmvUdEBTEQHmkQAw&skey=cdda66716f19c532&v=v9) format('woff2');
+  }
+
+
   .jumbotron {
       background-image: url('poolonmountain.jpg');
-      height: 480px;
+      height: 330px;
   }
 
 
 .jumbotron-title {
-    font-size: 5rem;
+    font-size: 3rem;
+    font-family: 'Indie Flower script=latin rev=1';
     color: navy;
 }
 
 .jumbotron-words {
-  font-size: 3rem;
+  font-size: 2rem;
   color: yellow;
-}
-
-
-@font-face {
-    font-family: 'Indie Flower script=latin rev=1';
-    font-style: normal;
-    font-weight: 400;
-    src:   url(https://fonts.gstatic.com/l/font?kit=10JVD_humAd5zP2yrFqw6sh1wfMmCjn12V_BQTGmdm-lWBXZHJxtwUAuAQMHUQarESqeeMWmvUdEBTEQHmkQAw&skey=cdda66716f19c532&v=v9) format('woff2');
-}
-
-
-.jumbotron-font1 {
-    font-family: 'Indie Flower script=latin rev=1';
 }
 
 
