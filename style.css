@@ -47,10 +47,10 @@ html {
   }
 
 
-  .jumbotron {
+.jumbotron {
       background-image: url('poolonmountain.jpg');
-      height: 330px;
-  }
+      height: 320px;
+}
 
 
 .jumbotron-title {
