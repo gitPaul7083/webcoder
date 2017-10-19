@@ -162,9 +162,9 @@ html {
 }
 
 
-.slide-in-cycle1 {
-  -webkit-animation: slideInLeft 10000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
-  animation: slideInLeft 10000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+.slide-in-cycle {
+  -webkit-animation: slideInLeft 10000ms cubic-bezier(0.190,1.000,0.220,1.000) 100ms both;
+  animation: slideInLeft 10000ms cubic-bezier(0.190,1.000,0.220,1.000) 100ms both;
 }
 
 
