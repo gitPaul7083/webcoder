@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Bitter|Pacifico|Concert+One');
+
+
+/*  ----- HTML Body Styles -----  */
+body {
+  position: relative;
+  margin: 0;
+  /* padding-bottom: 6rem; */
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive typography */
+html {
+    font-size: 14px;
+  }
+
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 20px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 28px;
+    }
+  }
+
+
+#home-slider01 {
+     background: url("../pictures/bg-bluesky-grassland-002-light.jpg");
+     width: 100%;     
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+
+     position: relative;
+     height: 450px;
+        
+}
+
+
+#home-slider02 {
+  background: url("../pictures/bg-cycling-02-light.jpg");
+  width: 100%;     
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+  position: relative;
+  height: 650px;
+     
+}
+
+
+.right {
+  font-family: pacifico;
+  color: navy;
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 1px;
+}
+
+.slider-top-alignment {
+  display: block;
+  position: relative;
+  /* height: 60px; */
+  /* left: 10%; */
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  width: 450px;
+
+}
+
+
+.row {
+  padding: 10px;
+}
+
+
+/* Box-sizing */
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+
+/* LAYOUT - Responsive breakpoints */
+/* // Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575px) {
+
+} */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 767px) {
+
+} */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991px) {
+
+} */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199px) {
+
+} */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+
+} */
+
+/* GRID -  */
+
+
+.slide-in-neighbourhood {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+}
+
+
+.slide-in-neighbourhood {
+  -webkit-animation: fadeInUpBig 3000ms ease-in-out 20ms both;
+  animation: fadeInUpBig 3000ms ease-in-out 20ms both;
+}
+
+
+.slide-in-sun {
+  position: absolute;
+  top: 0px;
+  right: 750px;
+}
+
+
+.slide-in-sun {
+  -webkit-animation: fadeInUpBig 3000ms ease-in-out 20ms both;
+  animation: fadeInUpBig 3000ms ease-in-out 20ms both;
+}
+
+
+.slide-in-cycle {
+  position: absolute;
+  top: 200px;
+  right: 450px;
+  bottom: 0;
+}
+
+
+.slide-in-cycle1 {
+  -webkit-animation: slideInLeft 10000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+  animation: slideInLeft 10000ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+
+
+.slide-in-birds {
+  position: absolute;
+  top: 0px;
+  left: -1200px;
+}
+
+
+.slide-in-birds {
+  -webkit-animation: slideInRight 8000ms ease-in-out 10ms both;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
