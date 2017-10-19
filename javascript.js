@@ -1,2 +1,0 @@
-/* webcoder assignment JavaScript */
-
